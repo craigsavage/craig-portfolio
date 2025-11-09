@@ -11,13 +11,13 @@ export default function Hero() {
 
       <div className='mt-4 flex gap-4'>
         <a
-          href='#'
+          href='#projects'
           className='rounded-md bg-blue-600 px-4 py-2 text-white hover:bg-blue-700'
         >
           View My Work
         </a>
         <a
-          href='#'
+          href='#contact'
           className='rounded-md border border-zinc-300 px-4 py-2 text-zinc-700 hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800'
         >
           Contact Me
