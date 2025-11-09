@@ -32,7 +32,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className='my-16 w-full'>
+    <section id='projects' className='my-16 w-full'>
       <h2 className='mb-4 text-2xl font-bold'>Projects</h2>
       <p>Here are some of my recent projects:</p>
 
@@ -43,6 +43,6 @@ export default function Projects() {
           </li>
         ))}
       </ul>
-    </div>
+    </section>
   );
 }

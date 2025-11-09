@@ -3,7 +3,7 @@ export default function Footer() {
 
   return (
     <div className='w-full py-8 text-center text-sm text-gray-500'>
-      Craig Savage © {year}
+      Craig Savage © {year} | All rights reserved.
     </div>
   );
 }
