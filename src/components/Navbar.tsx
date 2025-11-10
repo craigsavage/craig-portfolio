@@ -1,3 +1,5 @@
+import DarkModeToggle from './DarkModeToggle';
+
 export default function Navbar() {
   return (
     <nav className='flex justify-between p-4 bg-white shadow-md dark:bg-black'>
@@ -9,23 +11,26 @@ export default function Navbar() {
           Craig&apos;s Portfolio
         </a>
       </div>
-      <ul className='flex items-center space-x-4'>
-        <li>
-          <a href='#about' className='hover:text-blue-400'>
-            About
-          </a>
-        </li>
-        <li>
-          <a href='#projects' className='hover:text-blue-400'>
-            Projects
-          </a>
-        </li>
-        <li>
-          <a href='#contact' className='hover:text-blue-400'>
-            Contact
-          </a>
-        </li>
-      </ul>
+      <div className='flex items-center gap-6'>
+        <ul className='flex items-center space-x-4'>
+          <li>
+            <a href='#about' className='hover:text-blue-400'>
+              About
+            </a>
+          </li>
+          <li>
+            <a href='#projects' className='hover:text-blue-400'>
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href='#contact' className='hover:text-blue-400'>
+              Contact
+            </a>
+          </li>
+        </ul>
+        <DarkModeToggle />
+      </div>
     </nav>
   );
 }
