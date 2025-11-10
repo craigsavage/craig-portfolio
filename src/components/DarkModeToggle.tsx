@@ -9,9 +9,7 @@ export default function DarkModeToggle() {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    const handleMount = () => setMounted(true);
-    handleMount();
-    return handleMount;
+    setMounted(true);
   }, []);
 
   if (!mounted) return null;
@@ -19,12 +17,13 @@ export default function DarkModeToggle() {
   return (
     <button
       onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-      className='flex items-center justify-center rounded-md p-2'
+      className='flex items-center justify-center rounded-md p-2 hover:bg-gray-100 dark:hover:bg-gray-800'
+      aria-label='Toggle dark mode'
     >
       {theme === 'dark' ? (
         <FaSun className='h-5 w-5 text-yellow-500' />
       ) : (
-        <FaMoon className='h-5 w-5 text-gray-800' />
+        <FaMoon className='h-5 w-5 text-gray-800 dark:text-gray-200' />
       )}
     </button>
   );
