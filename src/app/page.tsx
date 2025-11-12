@@ -1,3 +1,4 @@
+import About from '@/sections/About';
 import Contact from '@/sections/Contact';
 import Hero from '@/sections/Hero';
 import Projects from '@/sections/Projects';
@@ -6,12 +7,13 @@ export const revalidate = 0;
 
 export default function Home() {
   return (
-    <div className='flex min-h-screen items-center justify-center font-sans'>
-      <main className='flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 sm:items-start'>
+    <main className='flex flex-col items-center w-full font-sans'>
+      <div className='w-full max-w-3xl px-6 sm:px-12 md:px-16 py-32'>
         <Hero />
+        <About />
         <Projects />
         <Contact />
-      </main>
-    </div>
+      </div>
+    </main>
   );
 }

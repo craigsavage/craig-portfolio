@@ -17,7 +17,7 @@ export default function Hero() {
             href='https://linkedin.com/in/csavage647'
             target='_blank'
             rel='noopener noreferrer'
-            className='inline-flex items-center gap-2 rounded-md bg-blue-600 px-3 py-1.5 text-sm/6 font-semibold text-white hover:bg-blue-700'
+            className='inline-flex items-center gap-2 rounded-md bg-sky-600 px-3 py-1.5 text-sm/6 font-semibold text-white hover:bg-sky-700'
           >
             <FaLinkedin size={18} /> LinkedIn
           </a>
