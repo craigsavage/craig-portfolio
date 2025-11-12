@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { FaGithub, FaArrowUpRightFromSquare } from 'react-icons/fa6';
 
 type Project = {
   title: string;
@@ -41,13 +42,21 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         </ul>
         <div className='mt-2 flex space-x-4'>
           {project.website && (
-            <a href={project.website} className='text-blue-500'>
-              Website
+            <a
+              href={project.website}
+              target='_blank'
+              className='inline-flex items-center gap-2 rounded-md border border-zinc-300 px-2 py-1 text-sm/6 font-semibold text-zinc-700 hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800'
+            >
+              <FaArrowUpRightFromSquare size={15} /> Website
             </a>
           )}
           {project.github && (
-            <a href={project.github} className='text-blue-500'>
-              GitHub
+            <a
+              href={project.github}
+              target='_blank'
+              className='inline-flex items-center gap-2 rounded-md border border-zinc-300 px-2 py-1 text-sm/6 font-semibold text-zinc-700 hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800'
+            >
+              <FaGithub size={15} /> GitHub
             </a>
           )}
         </div>
