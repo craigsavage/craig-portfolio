@@ -2,6 +2,14 @@
 
 import { ThemeProvider } from 'next-themes';
 
+/**
+ * A provider component that wraps the application in a ThemeProvider.
+ * It allows the application to use the system theme (light or dark) and
+ * disables the transition animation when the theme changes.
+ *
+ * @param children - The children components to render.
+ * @returns The ThemeProvider wrapping the children components.
+ */
 export default function Providers({ children }: { children: React.ReactNode }) {
   return (
     <ThemeProvider

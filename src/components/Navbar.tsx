@@ -1,5 +1,6 @@
 import DarkModeToggle from './DarkModeToggle';
 
+/** Navbar Component */
 export default function Navbar() {
   return (
     <nav className='flex justify-between p-4 bg-white shadow-md dark:bg-black'>

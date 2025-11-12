@@ -1,5 +1,6 @@
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa6';
 
+/** Hero Section Component */
 export default function Hero() {
   return (
     <section id='hero' className='mb-16 w-full'>

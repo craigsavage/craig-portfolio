@@ -4,6 +4,11 @@ import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs';
 
+/**
+ * Dark Mode Toggle Component.
+ *
+ * Allows users to switch between light and dark themes.
+ */
 export default function DarkModeToggle() {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState<boolean>(false);

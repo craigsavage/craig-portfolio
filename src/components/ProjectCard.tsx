@@ -13,6 +13,7 @@ interface ProjectCardProps {
   project: Project;
 }
 
+/** Project Card Component */
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <div className='border border-gray-300 dark:border-gray-700 p-4 rounded-md'>

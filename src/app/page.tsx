@@ -5,6 +5,7 @@ import Projects from '@/sections/Projects';
 
 export const revalidate = 0;
 
+/** Home Page */
 export default function Home() {
   return (
     <main className='flex flex-col items-center w-full font-sans'>

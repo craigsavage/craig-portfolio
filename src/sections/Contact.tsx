@@ -1,5 +1,6 @@
 import { FaEnvelope } from 'react-icons/fa6';
 
+/** Contact Section Component */
 export default function Contact() {
   return (
     <section id='contact' className='my-16 w-full'>

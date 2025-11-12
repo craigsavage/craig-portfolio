@@ -20,6 +20,7 @@ export const metadata: Metadata = {
   description: "Craig's personal portfolio website.",
 };
 
+/** Root Layout Component */
 export default function RootLayout({
   children,
 }: Readonly<{
