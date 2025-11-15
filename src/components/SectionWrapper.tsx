@@ -6,6 +6,11 @@ interface SectionWrapperProps {
 
 /**
  * A wrapper component for sections that provides consistent styling and structure.
+ *
+ * @param id - The unique identifier for the section.
+ * @param title - An optional title for the section.
+ * @param children - The content of the section.
+ * @returns A styled section element containing the provided content.
  */
 export default function SectionWrapper({
   id,
