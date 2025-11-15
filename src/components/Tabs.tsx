@@ -38,7 +38,7 @@ export default function Tabs({ tabs }: TabsProps) {
 /** Tab Headers Component */
 export function TabHeaders({ tabs, active, setActive }: TabHeadersProps) {
   return (
-    <div className='flex space-x-4 '>
+    <div className='flex'>
       {tabs.map(tab => (
         <button
           key={tab.id}

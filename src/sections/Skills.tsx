@@ -5,7 +5,7 @@ const skills = [
   {
     id: 'languages',
     label: 'Languages',
-    items: ['Python', 'JavaScript', 'TypeScript', 'HTML', 'CSS'],
+    items: ['Python', 'JavaScript', 'TypeScript', 'Java', 'HTML', 'CSS'],
   },
   {
     id: 'frontend',
@@ -28,7 +28,16 @@ const skills = [
   {
     id: 'tools',
     label: 'Tools',
-    items: ['Docker', 'Git', 'Figma', 'Vercel', 'Ansible', 'Jenkins'],
+    items: [
+      'Docker',
+      'Git',
+      'Figma',
+      'Vercel',
+      'Ansible',
+      'Jenkins',
+      'Postman',
+      'Jest',
+    ],
   },
 ];
 
