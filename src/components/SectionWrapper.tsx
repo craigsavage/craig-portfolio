@@ -2,6 +2,7 @@ interface SectionWrapperProps {
   id: string;
   title?: string;
   children: React.ReactNode;
+  disableMarginTop?: boolean;
 }
 
 /**
@@ -16,9 +17,13 @@ export default function SectionWrapper({
   id,
   title,
   children,
+  disableMarginTop = false,
 }: SectionWrapperProps) {
   return (
-    <section id={id} className='my-16 w-full'>
+    <section
+      id={id}
+      className={`w-full ${disableMarginTop ? 'mb-16' : 'my-16'}`}
+    >
       {title && <h2 className='mb-4 text-2xl font-bold'>{title}</h2>}
       {children}
     </section>

@@ -9,7 +9,7 @@ export default function Navbar() {
           href='#'
           className='text-xl font-bold text-zinc-900 dark:text-zinc-100'
         >
-          Craig&apos;s Portfolio
+          Craig Savage
         </a>
       </div>
       <div className='flex items-center gap-6'>
