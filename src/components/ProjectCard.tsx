@@ -24,7 +24,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         alt={project.title}
         width={600}
         height={400}
-        className='w-full h-40 object-cover'
+        className='w-full h-40 object-cover object-top'
       />
       <div className='mt-3'>
         <p className='text-gray-700 dark:text-gray-300 text-sm mb-3'>

@@ -6,7 +6,7 @@ const projects = [
     description:
       'A Chrome extension for developers to toggle borders and inspect webpage layouts efficiently.',
     tech: ['TypeScript', 'React', 'Chrome Extensions API'],
-    image: '',
+    image: '/projects/border-patrol-demo.png',
     website:
       'https://chromewebstore.google.com/detail/fdkdknepjdabfaihhdljlbbcjiahmkkd?utm_source=item-share-cb',
     github: 'https://github.com/craigsavage/border-patrol',
@@ -15,8 +15,8 @@ const projects = [
     title: 'Financial Budget Tracker',
     description:
       'A web application to help users track their income and expenses, set budgets, and upload receipts for better financial management.',
-    tech: ['React', 'Supabase', 'Tailwind CSS', 'Tanstack Query'],
-    image: '',
+    tech: ['React', 'Supabase', 'Tailwind CSS', 'Tanstack Query', 'Vite'],
+    image: '/projects/financial-tracker.png',
     website: '',
     github: '',
   },
@@ -24,7 +24,7 @@ const projects = [
     title: 'Portfolio Website',
     description: 'A personal website to showcase my projects and skills.',
     tech: ['Next.js', 'Tailwind CSS', 'TypeScript'],
-    image: '',
+    image: '/projects/portfolio-light-mode.png',
     website: '',
     github: 'https://github.com/craigsavage/craig-portfolio',
   },
