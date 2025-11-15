@@ -1,33 +1,45 @@
 import SectionWrapper from '@/components/SectionWrapper';
+import Tabs from '@/components/Tabs';
 
 const skills = [
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Next.js',
-  'Node.js',
-  'Tailwind CSS',
-  'HTML',
-  'CSS',
-  'Git',
-  'REST APIs',
-  // Add more skills as desired
+  {
+    id: 'languages',
+    label: 'Languages',
+    items: ['Python', 'JavaScript', 'TypeScript', 'HTML', 'CSS'],
+  },
+  {
+    id: 'frontend',
+    label: 'Frontend',
+    items: ['React', 'Next.js', 'Angular', 'Tailwind CSS', 'Vite'],
+  },
+  {
+    id: 'backend',
+    label: 'Backend',
+    items: [
+      'Django',
+      'Node.js',
+      'Express',
+      'Postgres',
+      'AWS',
+      'Supabase',
+      'Redis',
+    ],
+  },
+  {
+    id: 'tools',
+    label: 'Tools',
+    items: ['Docker', 'Git', 'Figma', 'Vercel', 'Ansible', 'Jenkins'],
+  },
 ];
 
 /** Skills Section Component */
 export default function Skills() {
   return (
     <SectionWrapper id='skills' title='Skills'>
-      <ul className='flex flex-wrap justify-center gap-4'>
-        {skills.map(skill => (
-          <li
-            key={skill}
-            className='px-4 py-2 rounded-md bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-sm font-medium shadow'
-          >
-            {skill}
-          </li>
-        ))}
-      </ul>
+      <p className='mb-6 text-zinc-700 dark:text-zinc-300'>
+        Here are the technologies I&apos;ve been working with recently.
+      </p>
+      <Tabs tabs={skills} />
     </SectionWrapper>
   );
 }
