@@ -1,5 +1,17 @@
 import DarkModeToggle from './DarkModeToggle';
 
+interface NavLinkProps {
+  href: string;
+  label: string;
+}
+
+const NAV_LINKS = [
+  { href: '#about', label: 'About' },
+  { href: '#skills', label: 'Skills' },
+  { href: '#projects', label: 'Projects' },
+  { href: '#contact', label: 'Contact' },
+];
+
 /** Navbar Component */
 export default function Navbar() {
   return (
@@ -13,30 +25,24 @@ export default function Navbar() {
         </a>
       </div>
       <div className='flex items-center gap-6'>
-        <ul className='flex items-center space-x-4'>
-          <li>
-            <a href='#about' className='hover:text-sky-500'>
-              About
-            </a>
-          </li>
-          <li>
-            <a href='#skills' className='hover:text-sky-500'>
-              Skills
-            </a>
-          </li>
-          <li>
-            <a href='#projects' className='hover:text-sky-500'>
-              Projects
-            </a>
-          </li>
-          <li>
-            <a href='#contact' className='hover:text-sky-500'>
-              Contact
-            </a>
-          </li>
+        <ul className='flex items-center gap-4'>
+          {NAV_LINKS.map(link => (
+            <li key={link.href}>
+              <NavLink href={link.href} label={link.label} />
+            </li>
+          ))}
         </ul>
         <DarkModeToggle />
       </div>
     </nav>
+  );
+}
+
+/** Nav Link Component */
+export function NavLink({ href, label }: NavLinkProps) {
+  return (
+    <a href={href} className='hover:text-sky-500'>
+      {label}
+    </a>
   );
 }
