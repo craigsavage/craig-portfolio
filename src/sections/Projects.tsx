@@ -1,4 +1,5 @@
 import ProjectCard from '@/components/ProjectCard';
+import SectionWrapper from '@/components/SectionWrapper';
 
 const projects = [
   {
@@ -33,8 +34,7 @@ const projects = [
 /** Projects Section Component */
 export default function Projects() {
   return (
-    <section id='projects' className='my-16 w-full'>
-      <h2 className='mb-4 text-2xl font-bold'>Projects</h2>
+    <SectionWrapper id='projects' title='Projects'>
       <p>Here are some of my recent projects:</p>
 
       <ul className='mt-4 space-y-4'>
@@ -44,6 +44,6 @@ export default function Projects() {
           </li>
         ))}
       </ul>
-    </section>
+    </SectionWrapper>
   );
 }

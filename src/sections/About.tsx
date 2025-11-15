@@ -2,12 +2,12 @@ const education = [
   {
     degree: 'Bachelor of Engineering (Honours), Software Engineering',
     institution: 'Ontario Tech University',
-    period: 'Sept 2016 – May 2020',
+    period: 'Sept 2016 - May 2020',
   },
   {
     degree: 'Graphic Design',
     institution: 'Seneca College',
-    period: 'Sept 2012 – May 2015',
+    period: 'Sept 2012 - May 2015',
   },
 ];
 

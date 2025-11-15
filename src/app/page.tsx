@@ -2,6 +2,7 @@ import About from '@/sections/About';
 import Contact from '@/sections/Contact';
 import Hero from '@/sections/Hero';
 import Projects from '@/sections/Projects';
+import Skills from '@/sections/Skills';
 
 export const revalidate = 0;
 
@@ -12,6 +13,7 @@ export default function Home() {
       <div className='w-full max-w-3xl px-6 sm:px-12 md:px-16 py-32'>
         <Hero />
         <About />
+        <Skills />
         <Projects />
         <Contact />
       </div>

@@ -15,17 +15,22 @@ export default function Navbar() {
       <div className='flex items-center gap-6'>
         <ul className='flex items-center space-x-4'>
           <li>
-            <a href='#about' className='hover:text-blue-400'>
+            <a href='#about' className='hover:text-sky-500'>
               About
             </a>
           </li>
           <li>
-            <a href='#projects' className='hover:text-blue-400'>
+            <a href='#skills' className='hover:text-sky-500'>
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href='#projects' className='hover:text-sky-500'>
               Projects
             </a>
           </li>
           <li>
-            <a href='#contact' className='hover:text-blue-400'>
+            <a href='#contact' className='hover:text-sky-500'>
               Contact
             </a>
           </li>

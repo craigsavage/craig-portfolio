@@ -1,10 +1,10 @@
 import { FaEnvelope } from 'react-icons/fa6';
+import SectionWrapper from '@/components/SectionWrapper';
 
 /** Contact Section Component */
 export default function Contact() {
   return (
-    <section id='contact' className='my-16 w-full'>
-      <h2 className='mb-4 text-2xl font-bold'>Contact</h2>
+    <SectionWrapper id='contact' title='Contact'>
       <p className='mb-6 text-zinc-700 dark:text-zinc-300'>
         Feel free to reach out to me via email for any inquiries or
         opportunities.
@@ -19,6 +19,6 @@ export default function Contact() {
           <FaEnvelope size={18} /> Email Me
         </a>
       </div>
-    </section>
+    </SectionWrapper>
   );
 }
