@@ -78,7 +78,7 @@ const skills = [
       'Scalability',
       'Performance Optimization',
       'Data Structures & Algorithms',
-      'Agile/Scrum',
+      'Agile Methodologies',
       'Object-Oriented Programming (OOP)',
       'Functional Programming',
     ],

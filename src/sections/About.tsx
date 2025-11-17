@@ -18,21 +18,18 @@ export default function About() {
       <h2 className='mb-4 text-2xl font-bold'>About Me</h2>
       <p className='mb-4 text-zinc-700 dark:text-zinc-300'>
         I’m Craig Savage, a Senior Software Engineer based in Toronto, ON,
-        Canada. I specialize in building scalable full-stack systems and leading
-        end-to-end product development that bridges technical excellence with
-        business impact.
+        Canada. I specialize in architecting and leading the development of
+        scalable full-stack systems, focusing on turning complex ideas into
+        reliable, high-impact products. I bridge technical excellence with
+        business value by driving solutions from initial design through
+        deployment while keeping performance, maintainability, and user
+        experience at the center.
       </p>
       <p className='mb-4 text-zinc-700 dark:text-zinc-300'>
-        With experience across frontend, backend, and infrastructure, I focus on
-        designing reliable systems, improving performance, and mentoring
-        engineers to build maintainable, high-quality software. I’m always
-        aiming to deliver clean, efficient code and exceptional user
-        experiences.
-      </p>
-      <p className='text-zinc-700 dark:text-zinc-300'>
-        When I’m not coding, I enjoy exploring creative projects, mentoring
-        other developers, and learning how thoughtful design and technology can
-        intersect to make life easier.
+        With experience across frontend, backend, and infrastructure, I build
+        systems that are resilient, efficient, and designed to scale. I mentor
+        engineers, define architectural standards, and elevate team execution
+        through clean code, thoughtful design, and practical problem-solving.
       </p>
 
       <div className='mt-8'>
