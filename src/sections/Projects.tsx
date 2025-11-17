@@ -24,7 +24,7 @@ const projects = [
   {
     title: 'Portfolio Website',
     description: 'A personal website to showcase my projects and skills.',
-    tech: ['Next.js', 'Tailwind CSS', 'TypeScript'],
+    tech: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Vercel'],
     image: '/projects/portfolio-light-mode.png',
     website: '',
     github: 'https://github.com/craigsavage/craig-portfolio',
