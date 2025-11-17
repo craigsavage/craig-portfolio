@@ -34,7 +34,7 @@ const skills = [
       'MongoDB',
       'Redis',
       'Supabase',
-      'Restful APIs',
+      'REST APIs',
       'Kafka',
     ],
   },
@@ -48,7 +48,7 @@ const skills = [
       'Vercel',
       'NGINX',
       'Jenkins',
-      'CI/CD',
+      'CI/CD Pipelines',
       'Microservices',
       'Git',
       'GitHub Actions',
@@ -59,14 +59,13 @@ const skills = [
     label: 'Tools',
     items: [
       'Vite',
-      'Rollup',
-      'Webpack',
       'Jest',
       'Postman',
       'Figma',
       'Notion',
       'JIRA',
       'ClickUp',
+      'Sentry',
     ],
   },
   {
@@ -84,6 +83,22 @@ const skills = [
       'Functional Programming',
     ],
   },
+  {
+    id: 'softSkills',
+    label: 'Soft Skills',
+    items: [
+      'Technical Leadership',
+      'Clear Communication',
+      'Team Collaboration',
+      'Mentorship & Coaching',
+      'Product Thinking',
+      'Problem Solving',
+      'Adaptability',
+      'Critical Thinking',
+      'Time & Priority Management',
+      'Cross-Functional Collaboration',
+    ],
+  },
 ];
 
 /** Skills Section Component */
@@ -91,7 +106,7 @@ export default function Skills() {
   return (
     <SectionWrapper id='skills' title='Skills'>
       <p className='mb-6 text-zinc-700 dark:text-zinc-300'>
-        Here are the technologies I&apos;ve been working with recently.
+        Here are some technologies and concepts I&apos;ve worked with:
       </p>
       <Tabs tabs={skills} />
     </SectionWrapper>
