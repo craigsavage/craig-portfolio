@@ -5,25 +5,32 @@ const projects = [
   {
     title: 'Border Patrol',
     description:
-      'A Chrome extension for developers to toggle borders and inspect webpage layouts efficiently.',
-    tech: ['TypeScript', 'React', 'Chrome Extensions API'],
+      'A Google Chrome extension that visually outlines webpage elements and reveals key box-model details (margins, padding, borders) for rapid CSS and layout debugging. Built to help developers and designers diagnose layout issues efficiently.',
+    tech: [
+      'TypeScript',
+      'React',
+      'Chrome Extensions APIs',
+      'Ant Design',
+      'Rollup',
+    ],
     image: '/projects/border-patrol-demo.png',
     website:
       'https://chromewebstore.google.com/detail/fdkdknepjdabfaihhdljlbbcjiahmkkd?utm_source=item-share-cb',
     github: 'https://github.com/craigsavage/border-patrol',
   },
   {
-    title: 'Financial Budget Tracker',
+    title: 'Financial Expense Tracker',
     description:
-      'A web application to help users track their income and expenses, set budgets, and upload receipts for better financial management.',
-    tech: ['React', 'Supabase', 'Tailwind CSS', 'Tanstack Query', 'Vite'],
+      'Full-stack expense tracking platform that lets users track expenses, set spending limits, and upload receipts. Designed for fast performance and a seamless user experience.',
+    tech: ['React', 'Supabase', 'Tailwind CSS', 'TanStack Query', 'Vite'],
     image: '/projects/financial-tracker.png',
     website: '',
     github: '',
   },
   {
     title: 'Portfolio Website',
-    description: 'A personal website to showcase my projects and skills.',
+    description:
+      'My personal portfolio built with Next.js and fully optimized for performance, accessibility, and responsive design. Deployed on Vercel with automated CI/CD.',
     tech: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Vercel'],
     image: '/projects/portfolio-light-mode.png',
     website: '',
