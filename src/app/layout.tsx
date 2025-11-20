@@ -16,8 +16,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Craig Portfolio',
-  description: "Craig's personal portfolio website.",
+  title: 'Craig Savage — Software Engineer Portfolio',
+  description: "Craig's software engineer portfolio website.",
+  openGraph: {
+    title: 'Craig Savage — Software Engineer Portfolio',
+    description: "Craig's software engineer portfolio website.",
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 /** Root Layout Component */

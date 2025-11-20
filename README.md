@@ -1,5 +1,8 @@
-# Personal Portfolio
+# Craig's Portfolio
 
-Linkedin: https://linkedin.com/in/csavage647
+This is my personal portfolio website built with Next.js, Tailwind CSS, and TypeScript. It showcases my skills, experience, and projects.
 
-GitHub: https://github.com/craigsavage
+### Links
+
+- Linkedin: https://linkedin.com/in/csavage647
+- GitHub: https://github.com/craigsavage
