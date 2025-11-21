@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
+import { BASE_URL } from '@/lib/constants';
 import Providers from './providers';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -18,6 +19,19 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Craig Savage — Software Engineer Portfolio',
   description: "Craig's software engineer portfolio website.",
+  metadataBase: new URL(BASE_URL),
+
+  keywords: [
+    'Craig Savage',
+    'Software Engineer',
+    'Portfolio',
+    'Full-Stack Developer',
+    'JavaScript',
+    'TypeScript',
+    'React',
+    'Next.js',
+  ],
+
   openGraph: {
     title: 'Craig Savage — Software Engineer Portfolio',
     description: "Craig's software engineer portfolio website.",
