@@ -16,27 +16,31 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
+/** Root Layout Metadata */
 export const metadata: Metadata = {
-  title: 'Craig Savage — Software Engineer Portfolio',
-  description: "Craig's software engineer portfolio website.",
   metadataBase: new URL(BASE_URL),
+  title: 'Craig Savage | Senior Software Engineer',
+  description:
+    'Senior Software Engineer based in Toronto, specializing in full-stack development, scalable systems, and high-performance architecture.',
 
   keywords: [
     'Craig Savage',
     'Software Engineer',
-    'Portfolio',
     'Full-Stack Developer',
     'JavaScript',
     'TypeScript',
     'React',
     'Next.js',
+    'Portfolio',
   ],
 
   openGraph: {
-    title: 'Craig Savage — Software Engineer Portfolio',
-    description: "Craig's software engineer portfolio website.",
-    locale: 'en_US',
     type: 'website',
+    url: BASE_URL,
+    title: 'Craig Savage | Senior Software Engineer',
+    description:
+      'Portfolio of Craig Savage — Senior Software Engineer focused on full-stack development, distributed systems, and scalable architectures.',
+    siteName: 'Craig Savage Portfolio',
   },
 };
 
