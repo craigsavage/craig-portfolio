@@ -1,6 +1,7 @@
 {
   "name": "craig-portfolio",
   "version": "0.2.0",
+  "description": "Craig's Portfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",
