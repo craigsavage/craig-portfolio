@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   description:
     'Senior Software Engineer based in Toronto, specializing in full-stack development, scalable systems, and high-performance architecture.',
 
+  applicationName: 'Craig Savage Portfolio',
+  authors: [{ name: 'Craig Savage', url: BASE_URL }],
+
   keywords: [
     'Craig Savage',
     'Software Engineer',
