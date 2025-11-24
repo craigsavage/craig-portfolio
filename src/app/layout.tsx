@@ -44,6 +44,14 @@ export const metadata: Metadata = {
     description:
       'Portfolio of Craig Savage — Senior Software Engineer focused on full-stack development, distributed systems, and scalable architectures.',
     siteName: 'Craig Savage Portfolio',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Craig Savage | Senior Software Engineer Portfolio',
+      },
+    ],
   },
 };
 
