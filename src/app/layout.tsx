@@ -68,8 +68,10 @@ export default function RootLayout({
       >
         <Providers>
           <Navbar />
-          {children}
-          <Footer />
+          <div className='pt-16'>
+            {children}
+            <Footer />
+          </div>
         </Providers>
       </body>
     </html>

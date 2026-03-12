@@ -1,3 +1,6 @@
+'use client';
+
+import { useState, useEffect } from 'react';
 import DarkModeToggle from './DarkModeToggle';
 
 interface NavLinkProps {
@@ -14,8 +17,34 @@ const NAV_LINKS = [
 
 /** Navbar Component */
 export default function Navbar() {
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY > lastScrollY) {
+        // Scrolling down
+        setIsVisible(false);
+      } else {
+        // Scrolling up
+        setIsVisible(true);
+      }
+
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [lastScrollY]);
+
   return (
-    <nav className='flex justify-between p-4 bg-white shadow-md dark:bg-black'>
+    <nav
+      className={`flex justify-between p-4 bg-white shadow-md dark:bg-black fixed top-0 w-full z-50 transition-transform duration-300 ${
+        isVisible ? 'translate-y-0' : '-translate-y-full'
+      }`}
+    >
       <div className='flex items-center'>
         <a
           href='#'
