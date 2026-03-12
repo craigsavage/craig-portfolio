@@ -8,6 +8,20 @@ const skills = [
     items: ['Python', 'JavaScript', 'TypeScript', 'Java', 'HTML', 'CSS'],
   },
   {
+    id: 'ai',
+    label: 'AI',
+    items: [
+      'OpenAI API',
+      'GenAI Tools',
+      'Gemini',
+      'Claude',
+      'ChatGPT',
+      'LLMs',
+      'Prompt Engineering',
+      'AI Integration',
+    ],
+  },
+  {
     id: 'frontend',
     label: 'Frontend',
     items: [
@@ -50,6 +64,7 @@ const skills = [
       'CI/CD Pipelines',
       'Git',
       'GitHub Actions',
+      'Ansible',
     ],
   },
   {
@@ -64,6 +79,10 @@ const skills = [
       'JIRA',
       'ClickUp',
       'Sentry',
+      'VS Code',
+      'Cursor',
+      'Copilot',
+      'Claude Code',
     ],
   },
   {
@@ -80,6 +99,7 @@ const skills = [
       'Performance Optimization',
       'Data Structures & Algorithms',
       'Agile Methodologies',
+      'Prompt Engineering',
       'Object-Oriented Programming (OOP)',
       'Functional Programming',
     ],
