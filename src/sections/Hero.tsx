@@ -10,8 +10,8 @@ export default function Hero() {
           Hey, I&apos;m Craig!
         </h1>
         <p className='max-w-xl text-lg text-zinc-700 dark:text-zinc-300'>
-          Senior software engineer who enjoys turning complex problems into
-          clean, scalable digital experiences.
+          I'm a senior software engineer who gets excited about tackling complex
+          problems and building products people actually enjoy using.
         </p>
 
         <div className='flex gap-3'>
