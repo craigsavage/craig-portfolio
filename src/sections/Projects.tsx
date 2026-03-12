@@ -3,7 +3,7 @@ import SectionWrapper from '@/components/SectionWrapper';
 
 const projects = [
   {
-    title: 'Border Patrol',
+    title: 'Border Patrol - CSS Debugger & Element Outliner',
     description:
       'A Google Chrome extension that visually outlines webpage elements and reveals key box-model details (margins, padding, borders) for rapid CSS and layout debugging. Built to help developers and designers diagnose layout issues efficiently.',
     tech: [
